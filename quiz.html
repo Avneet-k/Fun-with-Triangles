@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Avneet | Triangles</title>
+</head>
+<body>
+        <nav>
+            <div class="brand" style="padding-left: 2.5rem;padding-top:25px;"><a class="tag" href="/">Avneetcodes</a></div>
+            <ul class="navbar-nav">
+                <li class="menu">
+                    <a class="menu" href="angle.html">Is Triangle?</a>
+                </li>
+                <li class="menu">
+                    <a class="menu" href="hypotenuse.html">Hypotenuse?</a>
+                </li>
+                <li class="menu">
+                    <a class="menu" href="area.html">Area?</a>
+                </li>
+                <li class="menu">
+                    <a class="menu" href="quiz.html">Quiz</a>
+                </li>
+                </ul>   
+        </nav>
+        <div class="container-angle">
+            <h1>Quiz Time</h1>
+            <form class="quiz-form">
+                <div class="ques-container">
+                    <p>1. What is the third angle for the triangle where angle1 = 45° and angle2 = 45°?</p>
+                    <label><input type="radio" name="ques1" value="45°">45°</label>
+                    <label><input type="radio" name="ques1" value="60°">60°</label>
+                    <label><input type="radio" name="ques1" value="90°">90°</label>
+                </div>
+                <div class="ques-container">
+                    <p>2. If a triangle has an angle of 90°, what is it called?</p>
+                    <label><input type="radio" name="ques2" value="obtuse">obtuse</label>
+                    <label><input type="radio" name="ques2" value="acute">acute</label>
+                    <label><input type="radio" name="ques2" value="right angled">right angled</label>
+                </div>
+                <div class="ques-container">
+                    <p>3. What is the sum of all angles of a triangle?</p>
+                    <label><input type="radio" name="ques3" value="180">180</label>
+                    <label><input type="radio" name="ques3" value="360">360</label>
+                    <label><input type="radio" name="ques3" value="240">240</label>
+                    
+                </div>
+                <div class="ques-container">
+                    <p>4. Which of the following can form a right angled triangle? </p>
+                    <label><input type="radio" name="ques4" value="14,15,26 ">14,15,26 </label>
+                    <label><input type="radio" name="ques4" value="12,16,20"> 12,16,20</label>
+                    <label><input type="radio" name="ques4" value="None of these">None of these</label>
+                   
+                </div>
+                <div class="ques-container">
+                    <p>5. Which triangle has two angles equal?</p>
+                    <label><input type="radio" name="ques5" value=" Equilateral"> Equilateral</label>
+                    <label><input type="radio" name="ques5" value="Isosceles">Isosceles</label>
+                    <label><input type="radio" name="ques5" value=" Scalene"> Scalene</label>
+                   
+                </div>
+                <div class="ques-container">
+                    <p>6. If a triangle has all sides with equal lengths and 75° angle between them. What is the type of triangle?</p>
+                    <label><input type="radio" name="ques6" value="Equilateral">Equilateral</label>
+                    <label><input type="radio" name="ques6" value="Isosceles "> Isosceles </label>
+                    <label><input type="radio" name="ques6" value="Right"> Right</label>
+                </div>
+                <div class="ques-container">
+                    <p>7. If a triangle has 2 angles of 75°. What is the measure of third angle?</p>
+                    <label><input type="radio" name="ques7" value="25°">25°</label>
+                    <label><input type="radio" name="ques7" value="30°">30°</label>
+                    <label><input type="radio" name="ques7" value="15°">15°</label>
+                </div>
+                <div class="ques-container">
+                    <p>8. If a triangle has 2 sides with equal lengths and 60° angle between them. What is the type of triangle?</p>
+                    <label><input type="radio" name="ques8" value="Equilateral ">Equilateral </label>
+                    <label><input type="radio" name="ques8" value="Isosceles">Isosceles</label>
+                    <label><input type="radio" name="ques8" value="Both">Both</label>
+                </div>
+                <div class="ques-container">
+                    <p>9. The perimeter of an equilateral triangle is 15cm. What is the length of one side?</p>
+                    <label><input type="radio" name="ques9" value="15cm ">15cm </label>
+                    <label><input type="radio" name="ques9" value="45cm">45cm</label>
+                    <label><input type="radio" name="ques9" value="5cm">5cm</label>
+                </div>
+                <div class="ques-container">
+                    <p>10. If a triangle has sides of 2cm, 3cm, 4cm, what is the type of triangle?</p>
+                    <label><input type="radio" name="ques10" value="Equilateral ">Equilateral </label>
+                    <label><input type="radio" name="ques10" value="Isosceles "> Isosceles </label>
+                    <label><input type="radio" name="ques10" value="Scalene">Scalene</label>
+                </div>
+
+            </form>
+            <button id="btn-quiz">Submit</button>
+            <div id="quiz-output">Score is pending....</div>
+        </div>
+        <section class="footer-quiz">
+            <ul class="footer-ul" style="padding-top: 10px;">
+                <li><a class="menu footer-nav" target="_blank" href="https://github.com/Avneet-k"><i class="fab fa-github-alt"></i></a>
+                </li>
+                <li><a class="menu footer-nav" target="_blank" href="https://www.linkedin.com/in/avneet-kaur-34b7b9190/"><i	class="fab fa-linkedin-in"></i></a></li>
+                <li><a class="menu footer-nav" target="_blank" href="https://www.instagram.com/ni_cecodes"><i class="fab fa-instagram"></i></a></li>
+                <li><a class="menu footer-nav" target="_blank" href="https://twitter.com/Avneet_K2"><i class="fab fa-twitter"></i></a></li>
+               </ul>
+               <div class="futer">©2021 | Made by Avneet💖</div>
+        </section>
+   
+    <script src="app.js"></script>
+</body>
+</html>

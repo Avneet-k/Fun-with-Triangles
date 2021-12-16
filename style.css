@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,300;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+body{
+    margin:0;
+    padding:0;
+    background-color:#95d1ccba ;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: #22577E;
+}
+.brand {
+    font-family: 'Lobster', cursive;
+}    
+a{
+    text-decoration: none;
+    font-size:20px;
+    color: white;
+    letter-spacing: 2px;
+} 
+.menu a:focus, .menu a:active, .menu a:hover {
+   color:#d1eafc;
+}
+.navbar-nav {
+    display :flex;
+    justify-content: space-between;
+    align-items: center;
+   text-decoration: none;
+   list-style-type: none;
+   padding-right:2.5rem;
+}
+.nav-bar .menu {
+    color:white;
+}
+.container{
+    text-align: center;
+    width:43%;
+    margin: auto;
+    min-height: 70vh;
+    margin-top: 4rem;
+}
+h1{
+    font-size:35px;
+    color: #22577E;
+    font-weight: 600;
+}
+.card-container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+    flex-wrap: wrap;
+}
+.card {
+    width: 100px;
+    height: 100px;
+    margin: 0.3rem 0.3rem 0.6rem;
+    padding: 1rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.1rem;
+    cursor: pointer;
+    background-color: #22577E;
+  }
+  
+  .card:hover {
+    background-color: #143146;
+  }
+
+footer{
+    text-align: center;
+    width: 100%;
+    font-size:16px;
+    background-color: #22577E;
+    position :fixed;
+    bottom:0;
+}
+.footer-quiz{
+    text-align: center;
+    width: 100%;
+    font-size:16px;
+    background-color: #22577E;
+    /* position :fixed;
+    bottom:0; */
+}
+.futer{
+    color:white;
+    padding-bottom:10px;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+.footer-ul{
+    text-decoration: none;
+    list-style-type: none;
+    display:flex;
+    justify-content: center;
+    padding:0;
+}
+.footer-nav{
+    text-decoration: none;
+}
+.menu{
+    margin:12px;
+    text-decoration: none;
+}
+.footer-ul i{
+    font-size:27px;
+    color:white;
+}
+.footer-ul i:hover{
+    color:#8cc6f0;
+}
+/* --------------------angle page-------------- */
+.container-angle{
+    text-align: center;
+    width:40%;
+    margin: 0 auto;
+    min-height: 70vh;
+    margin-top: 4rem;
+}
+h3{
+    font-size: 20px;
+    margin-bottom: 2.8rem;
+}
+.input-angle,.input-area, .input-hypo{
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+    padding: 0.6rem;
+    margin-top: 0.4rem;
+    border-radius: 3px;
+    border: transparent;
+    font-size: 18px;
+}
+.input-angle:focus{
+    outline:transparent;
+}
+button{
+    display: block;
+    background-color: #22577E;
+    color:white;
+    border: transparent;
+    border-radius: 3px;
+    padding: 10px 20px;
+    margin: 0 auto;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    font-size: 18px;
+    cursor: pointer;
+}
+button:hover{
+   background-color: #143146;
+}
+#angle-output, #hypo-output, #area-output, #quiz-output{   
+    width: 65%;
+    height: auto;
+    text-align: center;
+    border-radius: 0.2rem;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+      0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    display: block;
+    margin: 0 auto;
+    padding: 1rem;
+    border: transparent ;
+    background-color: white;
+    color:#22577E;
+    font-size: 19px;
+    font-weight: 600;
+}
+form {
+    margin: 4rem 0rem;
+  }
+
+.ques-container {
+    margin: 1.5rem 0rem;
+    padding: 1rem;
+    background-color: #5284a840;
+    border-radius: 0.2rem;
+    text-align: left;
+    font-size:17px;
+  }
+  
+  .ques-container p {
+    font-size:17px;
+    font-weight:600;
+    margin-top: 0;
+    text-align: left;
+  }
+  #quiz-output{
+    width: 65%;
+    height: auto;
+    text-align: center;
+    border-radius: 0.2rem;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+      0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    display: block;
+    margin: 0 auto;
+    padding: 1rem;
+    border: transparent ;
+    background-color: white;
+    color:#22577E;
+    font-size: 18px;
+  }
